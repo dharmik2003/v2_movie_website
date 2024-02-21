@@ -1,0 +1,241 @@
+.movieshow-container {
+  /* padding: 100px; */
+}
+
+.heading-h2 {
+  /* font-family: "Roboto"; */
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
+.side-scroll {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  /* border: 2px solid rgba(51, 51, 51, 1); */
+  color: rgba(51, 51, 51, 1);
+}
+
+.heading-p {
+  /* font-family: "Roboto"; */
+  /* width: 312px;
+  height: 24px; */
+
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Date {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.location-city {
+  margin: 10px;
+  gap: 15px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.location-icon {
+  font-size: 40px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.main-con-movie {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-con-movie-left {
+  padding: 100px;
+  float: left;
+  width: 52%;
+}
+
+/* right side image and price */
+
+.main-con-movie-right {
+  margin-top: 60px;
+  width: 40%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  /* float: right; */
+}
+
+.main-con-image-des {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column;
+  align-items: center; */
+}
+
+.spider-img > img {
+  border-radius: 20px;
+  height: auto;
+  width: auto;
+  height: 420px;
+}
+
+.description-h > h3 {
+  text-align: center;
+  color: rgba(51, 51, 51, 1);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+/*spiderman description*/
+.movie-details {
+  display: flex;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.category,
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category ul,
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category li,
+.info li {
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: rgba(51, 51, 51, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+/*button data */
+
+.main-book-button {
+  padding: 50px;
+  margin-top: 50px;
+  width: auto;
+  height: auto;
+  border: 4px solid rgba(90, 99, 122, 1);
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+/* .right-bottom {
+  width: auto;
+  height: auto;
+  border: 4px solid rgba(90, 99, 122, 1);
+  display: flex;
+  padding-left: 20px;
+  border-radius: 20px;
+} */
+
+.book-h {
+  color: rgba(51, 51, 51, 1);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.book-date {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding-top: 20px;
+  text-align: left;
+  color: linear-gradient(0deg, #5a637a, #5a637a),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+
+.book-type-time {
+  margin-top: 20px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-type {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.book-time {
+  color: rgba(51, 51, 51, 1);
+}
+
+.book-des {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.book-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 368px;
+  height: 64px;
+  padding: 16px, 12px, 16px, 12px;
+  border-radius: 8px;
+  gap: 10px;
+  background: rgba(26, 44, 80, 1);
+}
+
+.book-but-text {
+  color: rgba(255, 190, 0, 1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/*new css file */
+
+.main-con {
+  display: flex;
+  width: 100vw;
+  gap: 50px;
+  /* background-color: #5a637a; */
+}
+
+.left-con {
+  width: 50%;
+}
+.right-con {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}

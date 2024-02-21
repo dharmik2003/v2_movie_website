@@ -1,0 +1,229 @@
+/* .horizontal-scroll-view {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.movietitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  justify-content: center;
+  font-size: 39px;
+}
+.card {
+  width: 600px;
+}
+
+.abc {
+  height: 807px;
+  width: 600px;
+  border-radius: 20px;
+} */
+
+/* Premium Button */
+
+/* .premium-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.premium-group div {
+  height: auto;
+  width: auto;
+  font-size: 13px;
+}
+.insidediv {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.premium1 {
+  padding: 1px;
+  background: linear-gradient(to right, #f2c46f 0%, #c6943f 100%);
+  color: white;
+  border-radius: 8px;
+}
+.premium2 {
+  background-color: #ec1e2b;
+  padding: 1px;
+  color: white;
+  border-radius: 5px;
+}
+.premium3 {
+  background-color: #000e62;
+  padding: 1px;
+  width: auto;
+  height: auto;
+  color: white;
+  border-radius: 5px;
+}  */
+/* 
+.horizontal-scroll-view {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.card {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.abc {
+  height: 807px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.scroll-button {
+  height: 100%;
+  width: 60px;
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+ */
+
+.horizontal-scroll-view {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: auto;
+  padding: 20px;
+  transition: transform 0.5s ease; /* Smooth transition for scrolling */
+}
+
+.card {
+  flex-shrink: 0;
+  margin-right: 20px;
+  animation: slideIn 0.5s ease forwards;
+  opacity: 0;
+}
+
+/* .abc {
+  height: 807px;
+  width: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  border-radius: 20px;
+} */
+.abc {
+  height: 600px;
+  border-radius: 20px;
+  width: 420px;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.scroll-circle {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff; /* Change the background color as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  border: 2px solid black; /* Add border */
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*heading*/
+
+.movietitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  justify-content: center;
+  font-size: 30px;
+}
+
+/*button all*/
+
+.premium-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.pad {
+  padding: 2.5px;
+}
+
+.prem-1 {
+  background: linear-gradient(to right, #f2c46f 0%, #c6943f 100%);
+  color: white;
+  border-radius: 5px;
+}
+.prem-2 {
+  background-color: #ec1e2b;
+  color: white;
+  border-radius: 5px;
+}
+.prem-3 {
+  background-color: #000e62;
+  color: white;
+  border-radius: 5px;
+}
+
+.center-main-con {
+  display: flex;
+  gap: 60px;
+  transition: all 1s;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.login-main-con {
+  /* background-image: url("https://github.com/dharmik2003/poster_movie/blob/main/login/Picture.png?raw=true"); */
+  /* height: 100vh;
+  width: 100vw; */
+  /* object-fit: cover;
+  background-repeat: no-repeat; */
+  /* top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; */
+}
+.img-bg {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.login-details {
+  position: absolute;
+  width: 740px;
+  height: 772px;
+  top: 64px;
+  right: 102px;
+  background-color: white;
+}

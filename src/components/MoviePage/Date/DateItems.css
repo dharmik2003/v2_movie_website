@@ -1,0 +1,67 @@
+.date_main-container {
+  /* display: flex; */
+  /* width: 3%; */
+  /* width: 25%; */
+  padding: 15px;
+  border: linear-gradient(0deg, #5a637a, #5a637a),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border: 1px solid rgba(90, 99, 122, 1);
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+.date-both_month {
+  display: flex;
+  gap: 2px;
+  justify-content: space-evenly;
+}
+.date_month {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(90, 99, 122, 1);
+}
+.date-day {
+  display: flex;
+  justify-content: center;
+  /* font-family: Roboto; */
+  font-size: 25px;
+  font-weight: 750;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+
+.app-container {
+  /* display: flex; */
+  /* justify-content: center; */
+  background-color: #5a637a;
+  width: 50%;
+}
+.date-center {
+  display: flex;
+  flex-direction: row;
+}
+
+.date-left-but button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius */
+  padding: 5px 10px; /* Add padding */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+/* CSS for right button */
+.date-right-but button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius */
+  padding: 5px 10px; /* Add padding */
+  cursor: pointer; /* Add cursor pointer */
+}
